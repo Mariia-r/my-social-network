@@ -9,4 +9,5 @@ export const maxLengthCreator  = (maxLength) => (value) => {
 }
 
 export const maxLength10 = maxLengthCreator(10);
+export const maxLength30 = maxLengthCreator(30);
 export const maxLength100 = maxLengthCreator(100);
