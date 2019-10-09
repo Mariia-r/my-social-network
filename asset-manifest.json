@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-social-network/static/css/main.02519161.chunk.css",
+    "main.js": "/my-social-network/static/js/main.5de02556.chunk.js",
+    "main.js.map": "/my-social-network/static/js/main.5de02556.chunk.js.map",
+    "runtime~main.js": "/my-social-network/static/js/runtime~main.d9f01f5b.js",
+    "runtime~main.js.map": "/my-social-network/static/js/runtime~main.d9f01f5b.js.map",
+    "static/js/2.3a03eaf2.chunk.js": "/my-social-network/static/js/2.3a03eaf2.chunk.js",
+    "static/js/2.3a03eaf2.chunk.js.map": "/my-social-network/static/js/2.3a03eaf2.chunk.js.map",
+    "static/css/3.b4e2322e.chunk.css": "/my-social-network/static/css/3.b4e2322e.chunk.css",
+    "static/js/3.ebff7ba0.chunk.js": "/my-social-network/static/js/3.ebff7ba0.chunk.js",
+    "static/js/3.ebff7ba0.chunk.js.map": "/my-social-network/static/js/3.ebff7ba0.chunk.js.map",
+    "index.html": "/my-social-network/index.html",
+    "precache-manifest.3875701db14fe65fc7cedf3814cdfb85.js": "/my-social-network/precache-manifest.3875701db14fe65fc7cedf3814cdfb85.js",
+    "service-worker.js": "/my-social-network/service-worker.js",
+    "static/css/3.b4e2322e.chunk.css.map": "/my-social-network/static/css/3.b4e2322e.chunk.css.map",
+    "static/css/main.02519161.chunk.css.map": "/my-social-network/static/css/main.02519161.chunk.css.map",
+    "static/media/lookingForAJob.jpg": "/my-social-network/static/media/lookingForAJob.1b4c32b7.jpg",
+    "static/media/notLookingForAJob.png": "/my-social-network/static/media/notLookingForAJob.71743697.png",
+    "static/media/preloader.svg": "/my-social-network/static/media/preloader.d263d9fb.svg",
+    "static/media/user.jpg": "/my-social-network/static/media/user.13988554.jpg"
+  }
+}
