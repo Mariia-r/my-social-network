@@ -1,0 +1,9 @@
+.selectedPage {
+    font-weight: bold;
+    color: green;
+}
+
+.numberPages span{
+    padding-right: 3px;
+    border: 1px solid black;
+}
