@@ -1,8 +1,19 @@
 .item {
     color: rgb(0, 0, 0);
+    margin: 20px 5px;
+    border: 1px solid brown;
+    padding: 5px;
 }
 
 .item img {
     width: 30px;
     height: 30px;
+}
+
+.like {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../../assets/images/like.png");
+    background-size: cover;
+    margin: 5px 0px;
 }

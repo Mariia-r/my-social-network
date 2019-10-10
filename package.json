@@ -5,6 +5,7 @@
   "homepage": "https://mariia-r.github.io/my-social-network",
   "dependencies": {
     "axios": "^0.19.0",
+    "node-modules": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
