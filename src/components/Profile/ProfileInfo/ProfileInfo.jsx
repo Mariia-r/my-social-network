@@ -11,13 +11,22 @@ const ProfileInfo = (props) => {
     return <Preloader/>
   }
 
-    return (
+  const onMainPhotoSelected = (e) => {
+    if(e.target.files.length) {
+      props.savePhoto(e.target.files[0]);
+    }
+  }
+
+  return (
       <div>
         {/*<img className={css.screenImg} src="http://kofella.net/images/stories/vseokofe/kak-sdelat-risunok-na-kofe.jpg" alt="coffee"/>*/}
         <div className={css.descriptionBlock}>
           <p className={css.nameUser}>{props.profile.fullName}</p>
           <img src={props.profile.photos.large || userPhoto} alt="user" className={css.photoUser}/>
+          {props.isOwner && <input type="file" onChange={onMainPhotoSelected}/>}
+
           <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
+
           <div className={css.blockAboutJob}>
             <p>Looking for a job:
               <img src={props.profile.lookingForAJob ? lookingForAJob : notLookingForAJob} 
@@ -29,10 +38,11 @@ const ProfileInfo = (props) => {
               <p>{props.profile.contacts.instagram}</p>
               <p>{props.profile.contacts.github}</p>
             </div>
+
           </div>
         </div>
       </div>
-    );
+  );
 }
 
 export default ProfileInfo;
